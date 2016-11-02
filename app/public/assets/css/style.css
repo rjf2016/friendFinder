@@ -1,0 +1,182 @@
+
+
+.qDiv{
+	top: 10px;
+	width="100%"
+	height:50px;
+}
+
+.qText{
+	  font-family:'Arial', Times, Times New Roman, serif;
+      font-size: 12pt;  
+      color: gray;   
+      height: 30px; 
+    }
+
+ .slideText{
+ 	  position:relative;
+ 	  font-family:'Arial', Times, Times New Roman, serif;
+      font-size: 12pt;  
+      color: gray;   
+      left:40px;
+      height: 70px; 
+      margin-top: 15px;
+ }
+
+/* override the width of slider */
+.slider.slider-horizontal {
+  padding-left: 15px;
+  position: absolute;
+  width: 230px;
+  height: 20px;
+}
+
+.heading{
+	font-family:'Georgia', Times, Times New Roman, serif;
+	font-size: 18pt;	
+	position:relative;
+	height:32px;
+	background:#ffffff;
+	color: gray;		
+	border-bottom: 2px solid #cccccc;
+	margin-bottom: 10px;
+	top:2px;
+
+}
+
+.question{
+	font-family:'Georgia', Times, Times New Roman, serif;
+	font-size: 18pt;	
+	height:32px;
+	background:#ffffff;
+	color: black;		
+}
+
+
+ /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    .navbar-brand{
+      width: 64px;
+      height: 64px;
+    }
+
+    nav .navbar-nav a{
+      height: 64px;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+
+    .logo{
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 64px;
+      height: 64px;
+    }
+
+    .rightarrow{
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 64px;
+      width: 64px;
+    }
+
+    .biglogo{
+      float: left;
+      margin: 0 0 10px 10px;
+      top: 0px;
+      left: 0px;
+      width: 128px;
+      height: 128px;
+    }
+
+    .logos{
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 128px;
+      width: 128px;
+      border: 1px solid #cccccc;
+
+    }
+
+    #find{
+      text-align: center;
+    }
+    
+    #images{
+      position: relative;
+      text-align:center;
+    }
+
+    .friendText{
+      font-family:'Arial', Times, Times New Roman, serif;
+      font-size: 18pt;  
+      color: gray;    
+      
+      margin-bottom: 10px;
+      top:2px;
+    }
+
+    .friendimage{
+      position: relative;
+      text-align:left;
+      height: 160px;
+      width: 160px;
+    }
+ 
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;}
+
+    .friendimage{display:none;}
+     #images{display:none;}
+    .biglogo{display:none;}
+    #find{
+      font-family:'Arial', Times, Times New Roman, serif;
+      font-size: 12pt;  
+      color: black;   
+    }
+    
+    #welcome{
+      font-family:'Arial', Times, Times New Roman, serif;
+      font-size: 12pt;  
+      font-weight: bold;
+      color: black;   
+    }
+
+    .friendText{
+      font-family:'Arial', Times, Times New Roman, serif;
+      font-size: 10pt;  
+      color: gray;    
+      margin-bottom: 10px;
+      top:2px;
+    }
+    
+
+    }

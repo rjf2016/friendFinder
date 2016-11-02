@@ -1,0 +1,23 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Search tool to find compatible friends",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "friend",
+    "finder",
+    "search",
+    "friendfinder"
+  ],
+  "author": "Rick Fahey",
+  "license": "ISC"
+}

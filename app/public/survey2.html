@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.3.0/bootstrap-slider.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.3.0/css/bootstrap-slider.css">
+
+   <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+          <img class="logo" src="../images/friends.jpg" height="36px" width="36px"></img>  
+       </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="/">Home</a></li>
+        <li class="active"><a href="#">Survey</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <p><a href="/api/friends">API Friends List</a></p>
+      <p><a href="#">Github Repository</a></p>
+    </div>
+    <div class="col-sm-8 text-left">
+     
+      <h2>Please Complete the Survey</h2><BR />
+      
+
+        <form>
+      <div class="form-group">
+        <label for="name">Name (Required)</label>
+        <input type="name" class="form-control" id="yourName" placeholder="Enter your Name">
+      </div>
+      <div class="form-group">
+        <label for="imageURL">Link to Photo Image (Required)</label>
+        <input type="name" class="form-control" id="yourImgUrl" placeholder="Enter URL to your Photo">
+      </div>
+      
+    </form>
+
+
+
+    
+      <p class="qText"><strong>1.</strong>  Your mind is always buzzing with unexplored ideas and plans. 
+        <p class="slideText">
+        <input id="q1" type="text"
+          data-provide="slider"
+          data-slider-ticks="[1, 2, 3, 4, 5]"
+          data-slider-ticks-labels='["<H6>Strongly<br />Disagree</H6>", "", "", "", "<H6>Strongly<br />Agree</H6>"]'
+          data-slider-min="1"
+          data-slider-max="5"
+          data-slider-step="1"
+          data-slider-value="3"
+          data-slider-tooltip="hide" />
+       </p></p>
+       
+
+       <p class="qText"><strong>2.</strong> Generally speaking, you rely more on your experience than your imagination. 
+        <p class="slideText">
+        <input id="q2" type="text"
+          data-provide="slider"
+          data-slider-ticks="[1, 2, 3, 4, 5]"
+          data-slider-ticks-labels='["<H6>Strongly<br />Disagree</H6>", "", "", "", "<H6>Strongly<br />Agree</H6>"]'
+          data-slider-min="1"
+          data-slider-max="5"
+          data-slider-step="1"
+          data-slider-value="3"
+          data-slider-tooltip="hide" />
+      </p></p>
+       
+
+      <p class="qText"><strong>3.</strong> You find it easy to stay relaxed and focused even when there is some pressure. 
+        <p class="slideText">
+        <input id="q3" type="text"
+          data-provide="slider"
+          data-slider-ticks="[1, 2, 3, 4, 5]"
+          data-slider-ticks-labels='["<H6>Strongly<br />Disagree</H6>", "", "", "", "<H6>Strongly<br />Agree</H6>"]'
+          data-slider-min="1"
+          data-slider-max="5"
+          data-slider-step="1"
+          data-slider-value="3"
+          data-slider-tooltip="hide" />
+      </p></p>
+
+      <p class="qText"><strong>4.</strong> You rarely do something just out of sheer curiosity. 
+        <p class="slideText">
+        <input id="q4" type="text"
+          data-provide="slider"
+          data-slider-ticks="[1, 2, 3, 4, 5]"
+          data-slider-ticks-labels='["<H6>Strongly<br />Disagree</H6>", "", "", "", "<H6>Strongly<br />Agree</H6>"]'
+          data-slider-min="1"
+          data-slider-max="5"
+          data-slider-step="1"
+          data-slider-value="3"
+          data-slider-tooltip="hide" />
+      </p></p>
+
+       <p class="qText"><strong>5.</strong> People can rarely upset you. 
+        <p class="slideText">
+        <input id="q5" type="text"
+          data-provide="slider"
+          data-slider-ticks="[1, 2, 3, 4, 5]"
+          data-slider-ticks-labels='["<H6>Strongly<br />Disagree</H6>", "", "", "", "<H6>Strongly<br />Agree</H6>"]'
+          data-slider-min="1"
+          data-slider-max="5"
+          data-slider-step="1"
+          data-slider-value="3"
+          data-slider-tooltip="hide" />
+      </p></p>
+
+       <p class="qText"><strong>6.</strong> It is often difficult for you to relate to other people’s feelings. 
+        <p class="slideText">
+        <input id="q6" type="text"
+          data-provide="slider"
+          data-slider-ticks="[1, 2, 3, 4, 5]"
+          data-slider-ticks-labels='["<H6>Strongly<br />Disagree</H6>", "", "", "", "<H6>Strongly<br />Agree</H6>"]'
+          data-slider-min="1"
+          data-slider-max="5"
+          data-slider-step="1"
+          data-slider-value="3"
+          data-slider-tooltip="hide" />
+      </p></p>
+
+<p class="qText"><strong>7.</strong> In a discussion, truth should be more important than people’s sensitivities. 
+        <p class="slideText">
+        <input id="q7" type="text"
+          data-provide="slider"
+          data-slider-ticks="[1, 2, 3, 4, 5]"
+          data-slider-ticks-labels='["<H6>Strongly<br />Disagree</H6>", "", "", "", "<H6>Strongly<br />Agree</H6>"]'
+          data-slider-min="1"
+          data-slider-max="5"
+          data-slider-step="1"
+          data-slider-value="3"
+          data-slider-tooltip="hide" />
+      </p></p>
+
+      <p class="qText"><strong>8.</strong> You rarely get carried away by fantasies and ideas. 
+        <p class="slideText">
+        <input id="q8" type="text"
+          data-provide="slider"
+          data-slider-ticks="[1, 2, 3, 4, 5]"
+          data-slider-ticks-labels='["<H6>Strongly<br />Disagree</H6>", "", "", "", "<H6>Strongly<br />Agree</H6>"]'
+          data-slider-min="1"
+          data-slider-max="5"
+          data-slider-step="1"
+          data-slider-value="3"
+          data-slider-tooltip="hide" />
+      </p></p>
+
+      <p class="qText"><strong>9.</strong> You think that everyone’s views should be respected regardless of whether they are supported by facts or not. 
+        <p class="slideText">
+        <input id="q9" type="text"
+          data-provide="slider"
+          data-slider-ticks="[1, 2, 3, 4, 5]"
+          data-slider-ticks-labels='["<H6>Strongly<br />Disagree</H6>", "", "", "", "<H6>Strongly<br />Agree</H6>"]'
+          data-slider-min="1"
+          data-slider-max="5"
+          data-slider-step="1"
+          data-slider-value="3"
+          data-slider-tooltip="hide" />
+      </p></p>
+
+      <p class="qText"><strong>10.</strong> ou feel more energetic after spending time with a group of people.
+        <p class="slideText">
+        <input id="q10" type="text"
+          data-provide="slider"
+          data-slider-ticks="[1, 2, 3, 4, 5]"
+          data-slider-ticks-labels='["<H6>Strongly<br />Disagree</H6>", "", "", "", "<H6>Strongly<br />Agree</H6>"]'
+          data-slider-min="1"
+          data-slider-max="5"
+          data-slider-step="1"
+          data-slider-value="3"
+          data-slider-tooltip="hide" />
+      </p></p>
+
+
+
+      <button type="submit" class="btn btn-primary submit">Submit</button>
+
+
+
+      <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+          
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Friend Finder</h4>
+              </div>
+              <div class="modal-body">
+                <p id="matchName"></p>
+                <p><img id="matchPhoto" src="#"></p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+    </div>
+
+
+    <div class="col-sm-2 sidenav">
+      <div>Possible Friends</div>
+      <div class="well">
+        <p>Friend 1 Pic</p>
+      </div>
+      <div class="well">
+        <p>Friend 2 Pic</p>
+      </div>
+    </div>
+  </div>
+
+
+    
+</div>
+
+
+<script type="text/javascript">
+
+ $(".submit").on("click", function(){
+
+
+      // Create an object for the user's data
+        var userData = {
+          name: $("#yourName").val(),
+          photo: $("#yourImgUrl").val(),
+          scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val(), ]
+        }
+
+
+        // Grab the URL of the website
+        var currentURL = window.location.origin;
+
+        // AJAX post the data to the friends API. 
+        $.post(currentURL + "/api/friends", userData, function(data){
+
+        var obj = {
+          name: "",
+          photo: ""
+        }
+        
+        obj = jQuery.parseJSON(data);
+        
+        //console.log(obj.name);
+
+        $('#matchName').html("Your perfect friend is " + obj.name);
+        $('#matchPhoto').attr("src", obj.photo);
+        
+        $('#myModal').modal('show');
+
+
+        if(data == true){
+          // alert("Successfully saved!");
+
+              
+              //show modal dialog with the best match
+          }
+
+          if(data == false){
+            //  alert("Sorry Charlie!");
+          }
+          
+
+        });
+
+
+
+
+});
+
+
+
+
+
+
+
+
+  </script>
+
+
+<footer class="container-fluid text-center">
+  <p>FriendFinder (c) 2016 </p>
+</footer>
+
+</body>
+</html>
+
