@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Survey</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -45,7 +45,7 @@
   <div class="row content">
     <div class="col-sm-2 sidenav">
       <p><a href="/api/friends">API Friends List</a></p>
-      <p><a href="#">Github Repository</a></p>
+      <p><a href="https://github.com/rjf2016/friendFinder">Github Repository</a></p>
     </div>
     <div class="col-sm-8 text-left">
      
@@ -200,9 +200,7 @@
       </p></p>
 
 
-
       <button type="submit" class="btn btn-primary submit">Submit</button>
-
 
 
       <!-- Modal -->
@@ -230,14 +228,16 @@
 
 
     <div class="col-sm-2 sidenav">
-      <div>Possible Friends</div>
+      <div></div>
       <div class="well">
-        <p>Friend 1 Pic</p>
+        <p></p>
       </div>
       <div class="well">
-        <p>Friend 2 Pic</p>
+        <p></p>
       </div>
     </div>
+
+
   </div>
 
 
@@ -271,23 +271,23 @@
         
         obj = jQuery.parseJSON(data);
         
-        //console.log(obj.name);
-
         $('#matchName').html("Your perfect friend is " + obj.name);
         $('#matchPhoto').attr("src", obj.photo);
         
         $('#myModal').modal('show');
 
+          $("#yourName").val("");
+          $("#yourImgUrl").val("");
 
         if(data == true){
-          // alert("Successfully saved!");
+          console.log("data saved");
 
               
               //show modal dialog with the best match
           }
 
           if(data == false){
-            //  alert("Sorry Charlie!");
+            console.log("data could not be saved");
           }
           
 
@@ -297,6 +297,7 @@
 
 
 });
+
 
 
 
