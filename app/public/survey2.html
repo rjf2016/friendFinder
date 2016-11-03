@@ -276,8 +276,9 @@
         
         $('#myModal').modal('show');
 
-          $("#yourName").val("");
-          $("#yourImgUrl").val("");
+
+        resetScreen();
+          
 
         if(data == true){
           console.log("data saved");
@@ -299,7 +300,21 @@
 });
 
 
+function resetScreen(){
 
+  $("#yourName").val("");
+  $("#yourImgUrl").val("");
+  $("#q1").slider('setValue',3);
+  $("#q2").slider('setValue',3);
+  $("#q3").slider('setValue',3);
+  $("#q4").slider('setValue',3);
+  $("#q5").slider('setValue',3);
+  $("#q6").slider('setValue',3);
+  $("#q7").slider('setValue',3);
+  $("#q8").slider('setValue',3);
+  $("#q9").slider('setValue',3);
+  $("#q10").slider('setValue',3);
+}
 
 
 
